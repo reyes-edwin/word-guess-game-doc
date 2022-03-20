@@ -19,7 +19,7 @@ You can find the repository powering this 11ty website [here](https://github.com
 
 ## Notes Week 10
 **Mockup**
-![wordle mockup](word-guess-game-doc/img/wordle.jpg)
+![wordle mockup](https://raw.githubusercontent.com/jforcina20/word-guess-game-doc/master/img/wordle.jpg)
 
 When a guess is entered, the results will be colored either grey, orange, or green using SimpleColor
 
