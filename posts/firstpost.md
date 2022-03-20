@@ -18,3 +18,12 @@ For our final Project in IST402, our team decided to create a word-guessing-game
 You can find the repository powering this 11ty website [here](https://github.com/reyes-edwin/word-guess-game-doc).
 
 ## Notes Week 10
+**Mockup**
+![wordle mockup](https://raw.githubusercontent.com/jforcina20/word-guess-game-doc/master/img/wordle.jpg)
+
+When a guess is entered, the results will be colored either grey, orange, or green using SimpleColor
+
+Our team currently believes that upon startup, the component will call the random word API to recieve the inital word. The user will start guessing and after entering a guess, each letter of their entry will be sent to an API endpoint noting which position it is in. The API response will state whether each letter is in the correct spot, in the incorrect spot, or not in the word at all. 
+
+**Next Steps**
+We'll continue to refine our mockup and rough work to finalize what we want our project to look like. After that, each subset on the team (frontend, backend, API) will get started on developing a prototype for their respective elements. 
