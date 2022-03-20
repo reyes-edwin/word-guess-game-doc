@@ -22,6 +22,12 @@
 &lt;h2 id=&quot;11ty-repo&quot; tabindex=&quot;-1&quot;&gt;11ty repo &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/word-guess-game-doc/posts/firstpost/#11ty-repo&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;You can find the repository powering this 11ty website &lt;a href=&quot;https://github.com/reyes-edwin/word-guess-game-doc&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&quot;notes-week-10&quot; tabindex=&quot;-1&quot;&gt;Notes Week 10 &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/word-guess-game-doc/posts/firstpost/#notes-week-10&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Mockup&lt;/strong&gt;&lt;br /&gt;
+&lt;img src=&quot;https://raw.githubusercontent.com/jforcina20/word-guess-game-doc/master/img/wordle.jpg&quot; alt=&quot;wordle mockup&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;When a guess is entered, the results will be colored either grey, orange, or green using SimpleColor&lt;/p&gt;
+&lt;p&gt;Our team currently believes that upon startup, the component will call the random word API to recieve the inital word. The user will start guessing and after entering a guess, each letter of their entry will be sent to an API endpoint noting which position it is in. The API response will state whether each letter is in the correct spot, in the incorrect spot, or not in the word at all.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Next Steps&lt;/strong&gt;&lt;br /&gt;
+We&#39;ll continue to refine our mockup and rough work to finalize what we want our project to look like. After that, each subset on the team (frontend, backend, API) will get started on developing a prototype for their respective elements.&lt;/p&gt;
 </content>
 	</entry>
 </feed>
