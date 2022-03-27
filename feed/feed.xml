@@ -5,7 +5,7 @@
 	
 	<link href="https://example.com/word-guess-game-doc/feed/feed.xml" rel="self"/>
 	<link href="https://example.com/"/>
-	<updated>2022-03-19T00:00:00Z</updated>
+	<updated>2022-03-27T00:00:00Z</updated>
 	<id>https://example.com/</id>
 	<author>
 		<name>Your Name Here</name>
@@ -13,15 +13,27 @@
 	</author>
 	
 	<entry>
-		<title>Word-Guessing-Game-Doc</title>
-		<link href="https://example.com/word-guess-game-doc/posts/firstpost/"/>
+		<title>Check-in week 2</title>
+		<link href="https://example.com/word-guess-game-doc/posts/week2/"/>
+		<updated>2022-03-27T00:00:00Z</updated>
+		<id>https://example.com/word-guess-game-doc/posts/week2/</id>
+		<content type="html">&lt;p&gt;Project update for week 2 found below.&lt;/p&gt;
+&lt;h2 id=&quot;frontend&quot; tabindex=&quot;-1&quot;&gt;Frontend &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/word-guess-game-doc/posts/week2/#frontend&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;backend&quot; tabindex=&quot;-1&quot;&gt;Backend &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/word-guess-game-doc/posts/week2/#backend&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;api&quot; tabindex=&quot;-1&quot;&gt;API &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/word-guess-game-doc/posts/week2/#api&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>Check-in week 1</title>
+		<link href="https://example.com/word-guess-game-doc/posts/wee1/"/>
 		<updated>2022-03-19T00:00:00Z</updated>
-		<id>https://example.com/word-guess-game-doc/posts/firstpost/</id>
-		<content type="html">&lt;h2 id=&quot;background&quot; tabindex=&quot;-1&quot;&gt;Background &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/word-guess-game-doc/posts/firstpost/#background&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+		<id>https://example.com/word-guess-game-doc/posts/wee1/</id>
+		<content type="html">&lt;h2 id=&quot;background&quot; tabindex=&quot;-1&quot;&gt;Background &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/word-guess-game-doc/posts/wee1/#background&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;For our final Project in IST402, our team decided to create a word-guessing-game. This would be a web-based word game allowing users to guess a random five-letter word. Each user would be given 5-6 attempts to guess the word. For each guess, a letter is marked as either green, yellow, or gray: Green indicates that the letter is correct, and yellow indicates that it is in the answer but not in the correct position. In contrast, gray indicates it is not in the correct position answer. &lt;a href=&quot;https://github.com/elmsln/issues/issues/963&quot;&gt;Project&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&quot;11ty-repo&quot; tabindex=&quot;-1&quot;&gt;11ty repo &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/word-guess-game-doc/posts/firstpost/#11ty-repo&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;11ty-repo&quot; tabindex=&quot;-1&quot;&gt;11ty repo &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/word-guess-game-doc/posts/wee1/#11ty-repo&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;You can find the repository powering this 11ty website &lt;a href=&quot;https://github.com/reyes-edwin/word-guess-game-doc&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&quot;notes-week-10&quot; tabindex=&quot;-1&quot;&gt;Notes Week 10 &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/word-guess-game-doc/posts/firstpost/#notes-week-10&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;notes-week-10&quot; tabindex=&quot;-1&quot;&gt;Notes Week 10 &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/word-guess-game-doc/posts/wee1/#notes-week-10&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Mockup&lt;/strong&gt;&lt;br /&gt;
 &lt;img src=&quot;https://raw.githubusercontent.com/jforcina20/word-guess-game-doc/master/img/wordle.jpg&quot; alt=&quot;wordle mockup&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;When a guess is entered, the results will be colored either grey, orange, or green using SimpleColor&lt;/p&gt;
