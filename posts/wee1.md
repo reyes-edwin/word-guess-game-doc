@@ -1,5 +1,5 @@
 ---
-title: Word-Guessing-Game-Doc
+title: Check-in week 1
 description: This a a post on the requirements for our current project
 date: 2022-03-19
 tags:
