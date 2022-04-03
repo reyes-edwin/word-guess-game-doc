@@ -16,3 +16,6 @@ Project update for week 3 found below.
 ## Backend
 
 ## API 
+The API group began documenting back end endpoints during this work week. Documented the purpose, inputs, and outputs of the getWord.js file. View the documentation [here](https://github.com/jforcina20/word-guessing-game/tree/main/documentation). As more endpoints are documented, they will also be viewable at this link. 
+
+Started reading about OpenAPI 3.0 documents and reviewed the HAXcms example. This upcomming week we plan on learning more about the API documentation and begin finalizing and documenting the reamining endpoints. 
