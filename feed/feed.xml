@@ -20,6 +20,9 @@
 		<content type="html">&lt;p&gt;Project update for week 3 found below.&lt;/p&gt;
 &lt;h2 id=&quot;frontend&quot; tabindex=&quot;-1&quot;&gt;Frontend &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/word-guess-game-doc/posts/week3/#frontend&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;h2 id=&quot;backend&quot; tabindex=&quot;-1&quot;&gt;Backend &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/word-guess-game-doc/posts/week3/#backend&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Tried to make a &amp;quot;random word&amp;quot; button so that the player could press the button and the correct answer to the game would be a random word from the word-api instead of the daily word. Was able to make the button but every time I tried to pass a function through that would switch the &amp;quot;correct word,&amp;quot; it never worked.&lt;/p&gt;
+&lt;p&gt;Question:&lt;br /&gt;
+How to correctly wire up some of those back-end elements like correct word to the front-end?&lt;/p&gt;
 &lt;h2 id=&quot;api&quot; tabindex=&quot;-1&quot;&gt;API &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/word-guess-game-doc/posts/week3/#api&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;The API group began documenting back end endpoints during this work week. Documented the purpose, inputs, and outputs of the getWord.js file. View the documentation &lt;a href=&quot;https://github.com/jforcina20/word-guessing-game/tree/main/documentation&quot;&gt;here&lt;/a&gt;. As more endpoints are documented, they will also be viewable at this link.&lt;/p&gt;
 &lt;p&gt;Started reading about OpenAPI 3.0 documents and reviewed the HAXcms example. This upcomming week we plan on learning more about the API documentation and begin finalizing and documenting the reamining endpoints.&lt;/p&gt;
