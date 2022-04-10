@@ -17,42 +17,47 @@
   </url>
   
   <url>
+    <loc>https://example.com/word-guess-game-doc/posts/week4/</loc>
+    <lastmod>2022-04-10</lastmod>
+  </url>
+  
+  <url>
     <loc>https://example.com/word-guess-game-doc/about/</loc>
-    <lastmod>2022-04-04</lastmod>
+    <lastmod>2022-04-10</lastmod>
   </url>
   
   <url>
     <loc>https://example.com/word-guess-game-doc/posts/</loc>
-    <lastmod>2022-04-04</lastmod>
+    <lastmod>2022-04-10</lastmod>
   </url>
   
   <url>
     <loc>https://example.com/word-guess-game-doc/</loc>
-    <lastmod>2022-04-04</lastmod>
+    <lastmod>2022-04-10</lastmod>
   </url>
   
   <url>
     <loc>https://example.com/word-guess-game-doc/page-list/</loc>
-    <lastmod>2022-04-04</lastmod>
+    <lastmod>2022-04-10</lastmod>
   </url>
   
   <url>
     <loc>https://example.com/word-guess-game-doc/tags/</loc>
-    <lastmod>2022-04-04</lastmod>
+    <lastmod>2022-04-10</lastmod>
   </url>
   
   <url>
     <loc>https://example.com/word-guess-game-doc/tags/web/</loc>
-    <lastmod>2022-04-04</lastmod>
+    <lastmod>2022-04-10</lastmod>
   </url>
   
   <url>
     <loc>https://example.com/word-guess-game-doc/tags/microservice/</loc>
-    <lastmod>2022-04-04</lastmod>
+    <lastmod>2022-04-10</lastmod>
   </url>
   
   <url>
     <loc>https://example.com/word-guess-game-doc/tags/webcomponent/</loc>
-    <lastmod>2022-04-04</lastmod>
+    <lastmod>2022-04-10</lastmod>
   </url>
 </urlset>
