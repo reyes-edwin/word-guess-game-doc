@@ -15,5 +15,9 @@ Project update for week 4 found below.
 
 ## Backend 
 
+Based on feedback from Bryan, I was looking into how we would use word-game-board in order to check how the user is doing on their current guess compared to the correct word. Still not sure how exactly we are going to do that.
+
+Also looked at some other wordle clones in order to see how they were tracking different things and figure out more about what the correct direction was in order to get our world clone up and working.
+
 ## API
 
