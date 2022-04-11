@@ -12,10 +12,18 @@ layout: layouts/post.njk
 Project update for week 4 found below.
 
 ## Frontend
+Frontend group finished the keyboard and 6 * 5 grid board. We were able to successfully put them in the center and make it auto adjusted with the website page. We build colors for wrong, wrong location and correct for both and will start working on title and user interaction. We had a copy of script.js from other wordle game and hope we can learn something from it.
 
 ## Backend 
 
-Based on feedback from Bryan, I was looking into how we would use word-game-board in order to check how the user is doing on their current guess compared to the correct word. Still not sure how exactly we are going to do that.
+Edwin- For this week I created the input buttons and attempted to change the focus once each character. [view project](https://word-guessing-game-seven.vercel.app/)
+
+**Questions**
+- How can I change the focus on each character?
+- How can the user submit it's guess once all 5 squares are filled?
+- Do we need to implement the keywords UI based on the time we got left?
+
+Aaron- Based on feedback from Bryan, I was looking into how we would use word-game-board in order to check how the user is doing on their current guess compared to the correct word. Still not sure how exactly we are going to do that.
 
 Also looked at some other wordle clones in order to see how they were tracking different things and figure out more about what the correct direction was in order to get our world clone up and working.
 
