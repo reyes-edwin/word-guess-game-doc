@@ -20,6 +20,8 @@
 		<content type="html">&lt;p&gt;Project update for week 4 found below.&lt;/p&gt;
 &lt;h2 id=&quot;frontend&quot; tabindex=&quot;-1&quot;&gt;Frontend &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/word-guess-game-doc/posts/week4/#frontend&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;h2 id=&quot;backend&quot; tabindex=&quot;-1&quot;&gt;Backend &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/word-guess-game-doc/posts/week4/#backend&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Based on feedback from Bryan, I was looking into how we would use word-game-board in order to check how the user is doing on their current guess compared to the correct word. Still not sure how exactly we are going to do that.&lt;/p&gt;
+&lt;p&gt;Also looked at some other wordle clones in order to see how they were tracking different things and figure out more about what the correct direction was in order to get our world clone up and working.&lt;/p&gt;
 &lt;h2 id=&quot;api&quot; tabindex=&quot;-1&quot;&gt;API &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/word-guess-game-doc/posts/week4/#api&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 </content>
 	</entry>
