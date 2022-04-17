@@ -23,6 +23,9 @@
 &lt;p&gt;Aaron&lt;br /&gt;
 Looked into the user input and figuring out more about how to verify the guess once the user types it in to the game board. Not sure how to lock the user&#39;s input to one row of the game board instead of being able to just click on random blocks within the game board and inputting at random spots. Also wanted to figure out how to delete the letters just by hitting the delete key rather than having to click on a tile and deleting it that way. Would be nice to have the game function as close to actual wordle with basic functions like that.&lt;/p&gt;
 &lt;h2 id=&quot;api&quot; tabindex=&quot;-1&quot;&gt;API &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/word-guess-game-doc/posts/week5/#api&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Started using &lt;a href=&quot;http://stoplight.io/&quot;&gt;Stoplight.io&lt;/a&gt; to make the OpenAPI document for the getWord endpoint. Built the schema for Word responses and connected the document to the live vercel server to send requests and recieve responses. The UI element of building this document has made the process easier and allowed us to add more information than the one built with Swagger Editor.&lt;/p&gt;
+&lt;p&gt;View the Stoplight documentation &lt;a href=&quot;https://402-groupc.stoplight.io/docs/word-guessing-game/YXBpOjUyODc4MzI1-word-guessing-game-api&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The original file built with Swagger editor can be viewed &lt;a href=&quot;https://github.com/reyes-edwin/word-guessing-game/blob/main/documentation/openapi.yaml&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 </content>
 	</entry>
 	
