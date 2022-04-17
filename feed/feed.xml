@@ -5,12 +5,24 @@
 	
 	<link href="https://example.com/word-guess-game-doc/feed/feed.xml" rel="self"/>
 	<link href="https://example.com/"/>
-	<updated>2022-04-10T00:00:00Z</updated>
+	<updated>2022-04-17T00:00:00Z</updated>
 	<id>https://example.com/</id>
 	<author>
 		<name>Your Name Here</name>
 		<email>youremailaddress@example.com</email>
 	</author>
+	
+	<entry>
+		<title>Check-in week 5</title>
+		<link href="https://example.com/word-guess-game-doc/posts/week5/"/>
+		<updated>2022-04-17T00:00:00Z</updated>
+		<id>https://example.com/word-guess-game-doc/posts/week5/</id>
+		<content type="html">&lt;p&gt;Project update for week 5 found below.&lt;/p&gt;
+&lt;h2 id=&quot;frontend&quot; tabindex=&quot;-1&quot;&gt;Frontend &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/word-guess-game-doc/posts/week5/#frontend&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;backend&quot; tabindex=&quot;-1&quot;&gt;Backend &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/word-guess-game-doc/posts/week5/#backend&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;api&quot; tabindex=&quot;-1&quot;&gt;API &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/word-guess-game-doc/posts/week5/#api&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Check-in week 4</title>
