@@ -12,6 +12,7 @@ layout: layouts/post.njk
 Project update for week 5 found below.
 
 ## Frontend
+Finished up the front end astetic of the site (grid and keyboard and title), and worked on splitting up the the word and comparing to the correct word. still easing off of the template we found but making progress on the on screen keyboard working to mkae sure the color changes after a letter is submitted and compared.
 
 ## Backend 
 
