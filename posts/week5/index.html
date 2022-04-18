@@ -31,6 +31,28 @@
 <h2 id="frontend" tabindex="-1">Frontend <a class="direct-link" href="#frontend" aria-hidden="true">#</a></h2>
 <p>Finished up the front end astetic of the site (grid and keyboard and title), and worked on splitting up the the word and comparing to the correct word. still easing off of the template we found but making progress on the on screen keyboard working to mkae sure the color changes after a letter is submitted and compared.</p>
 <h2 id="backend" tabindex="-1">Backend <a class="direct-link" href="#backend" aria-hidden="true">#</a></h2>
+<p><strong>Edwin</strong><br>
+<a href="https://word-guessing-game-seven.vercel.app/">view project</a></p>
+<ul>
+<li>
+<p>Color updates on each character. Sometimes for duplicated characters the background color is black. Try it out with the word &quot;Zaxes&quot;. I'm not quite sure why this is happening.</p>
+</li>
+<li>
+<p>Pulled all the words length of 5 and checked if the list contains the submitted guess word. One thing is how can we do this without generating all the words in the tag? (inspect the element to see). Can we hide this?</p>
+</li>
+</ul>
+<pre class="language-js"><code class="language-js"><span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token operator">!</span><span class="token keyword">this</span><span class="token punctuation">.</span>allWords<span class="token punctuation">.</span><span class="token function">includes</span><span class="token punctuation">(</span>theGuess<span class="token punctuation">.</span><span class="token function">toLowerCase</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span><br>      window<span class="token punctuation">.</span><span class="token function">alert</span><span class="token punctuation">(</span><span class="token string">'word not in list'</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br>      <span class="token keyword">return</span><span class="token punctuation">;</span><br>    <span class="token punctuation">}</span></code></pre>
+<ul>
+<li>Started the handles delete function. Every time the user press delete button the character deletes and moves back to the previous<br>
+sibling.</li>
+</ul>
+<p><strong>Next Steps</strong></p>
+<ol>
+<li>delete input</li>
+<li>handle error after 6 attempts</li>
+<li>Play again button after the game is over</li>
+<li>restart button</li>
+</ol>
 <p>Aaron<br>
 Looked into the user input and figuring out more about how to verify the guess once the user types it in to the game board. Not sure how to lock the user's input to one row of the game board instead of being able to just click on random blocks within the game board and inputting at random spots. Also wanted to figure out how to delete the letters just by hitting the delete key rather than having to click on a tile and deleting it that way. Would be nice to have the game function as close to actual wordle with basic functions like that.</p>
 <h2 id="api" tabindex="-1">API <a class="direct-link" href="#api" aria-hidden="true">#</a></h2>
