@@ -19,6 +19,7 @@
 		<id>https://example.com/word-guess-game-doc/posts/week5/</id>
 		<content type="html">&lt;p&gt;Project update for week 5 found below.&lt;/p&gt;
 &lt;h2 id=&quot;frontend&quot; tabindex=&quot;-1&quot;&gt;Frontend &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/word-guess-game-doc/posts/week5/#frontend&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Finished up the front end astetic of the site (grid and keyboard and title), and worked on splitting up the the word and comparing to the correct word. still easing off of the template we found but making progress on the on screen keyboard working to mkae sure the color changes after a letter is submitted and compared.&lt;/p&gt;
 &lt;h2 id=&quot;backend&quot; tabindex=&quot;-1&quot;&gt;Backend &lt;a class=&quot;direct-link&quot; href=&quot;https://example.com/word-guess-game-doc/posts/week5/#backend&quot; aria-hidden=&quot;true&quot;&gt;#&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Aaron&lt;br /&gt;
 Looked into the user input and figuring out more about how to verify the guess once the user types it in to the game board. Not sure how to lock the user&#39;s input to one row of the game board instead of being able to just click on random blocks within the game board and inputting at random spots. Also wanted to figure out how to delete the letters just by hitting the delete key rather than having to click on a tile and deleting it that way. Would be nice to have the game function as close to actual wordle with basic functions like that.&lt;/p&gt;
