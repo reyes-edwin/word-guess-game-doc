@@ -13,7 +13,7 @@ layout: layouts/post.njk
 ## What is it?
 This game is a clone of the popular game Wordle built with web components. It plays the same as the traditional game: the user gets six attempts to guess a five letter word. There is one word for every day. 
 
-After each guess, the tiles of each letter of their guess will change color to indicate if they are correct. Green tiles mean the letter is corrent and in the correct position, yellow tiles mean the letter is in the word but the user has put it in the incorrect position, and grey tiles mean the letter is not in the word. 
+After each guess, the tiles of each letter of their guess will change color to indicate if they are correct. Green tiles mean the letter is correct and in the correct position, yellow tiles mean the letter is in the word but the user has put it in the incorrect position, and grey tiles mean the letter is not in the word. 
 
 After guessing correctly, or running out of guesses, the game ends. The user will have the option to request a new randomly generated word to play again. 
 
