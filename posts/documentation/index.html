@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Guessing Game Documentation</title>
+    <meta name="description" content="Project documentation for final submission">
+    <link rel="stylesheet" href="/word-guess-game-doc/css/index.css">
+    <link rel="stylesheet" href="/word-guess-game-doc/css/prism-base16-monokai.dark.css">
+    <link rel="stylesheet" href="/word-guess-game-doc/css/prism-diff.css">
+    <link rel="alternate" href="/word-guess-game-doc/feed/feed.xml" type="application/atom+xml" title="Group C Project">
+    <link rel="alternate" href="/word-guess-game-doc/feed/feed.json" type="application/json" title="Group C Project">
+  </head>
+  <body>
+    <header>
+      <h1 class="home"><a href="/word-guess-game-doc/">Group C Project</a></h1>
+      <ul class="nav">
+        <li class="nav-item"><a href="/word-guess-game-doc/">Home</a></li>
+        <li class="nav-item"><a href="/word-guess-game-doc/posts/">Archive</a></li>
+        <li class="nav-item"><a href="/word-guess-game-doc/about/">About Me</a></li>
+      </ul>
+    </header>
+
+    <main class="tmpl-post">
+
+      <h1>Word Guessing Game Documentation</h1>
+
+<time datetime="2022-05-03">03 May 2022</time><a href="/word-guess-game-doc/tags/web/" class="post-tag">web</a><a href="/word-guess-game-doc/tags/microservice/" class="post-tag">microservice</a><a href="/word-guess-game-doc/tags/webcomponent/" class="post-tag">webcomponent</a>
+
+<h1 id="word-guessing-game-documentation" tabindex="-1">Word Guessing Game Documentation <a class="direct-link" href="#word-guessing-game-documentation" aria-hidden="true">#</a></h1>
+<h2 id="what-is-it" tabindex="-1">What is it? <a class="direct-link" href="#what-is-it" aria-hidden="true">#</a></h2>
+<p>This game is a clone of the popular game Wordle built with web components. It plays the same as the traditional game: the user gets six attempts to guess a five letter word. There is one word for every day.</p>
+<p>After each guess, the tiles of each letter of their guess will change color to indicate if they are correct. Green tiles mean the letter is corrent and in the correct position, yellow tiles mean the letter is in the word but the user has put it in the incorrect position, and grey tiles mean the letter is not in the word.</p>
+<p>After guessing correctly, or running out of guesses, the game ends. The user will have the option to request a new randomly generated word to play again.</p>
+<h2 id="how-does-it-work" tabindex="-1">How does it work? <a class="direct-link" href="#how-does-it-work" aria-hidden="true">#</a></h2>
+<p>The app is hosted in Vercel. Upon launch, the game calls the getWord API endpoint to get the current word of the day. The call is formatted as <code>/api/getWord?myDay=YYYY-MM-DD</code> and returns a JSON response. Full documentation for this API endpoint is available on Stoplight <a href="https://402-groupc.stoplight.io/docs/word-guessing-game">here</a>.</p>
+<p>After the word has been retrieved, the WordGuessingGame.js file sends the word to the wordGameBoard.js file via the <code>&lt;word-game-board&gt;</code> tag. wordGameBoard.js is used to check the user's input into each tile and check if it belongs in the current word. Based on the input in each tile, the wordGameBoard file will use wordTile.js to render the recolored tiles. A status is sent for each tile, correct = green, partial = yellow, and incorrect = grey.</p>
+<p>The user has 6 attempts to guess the word. If they guess the correct word, confetti will appear on their screen. After this, the game sends the number of attempts and winners for the word. If they do not guess the correct word, they will be shown a pop-up telling them they ran out of guesses and what the correct word was. This alert will also show the number of attempts and correct guesses for that word by pulling from the database.</p>
+<h2 id="how-was-it-built" tabindex="-1">How was it built? <a class="direct-link" href="#how-was-it-built" aria-hidden="true">#</a></h2>
+<p>Read about the process for building this component through the previous weekly check-in posts on this blog [here] (<a href="https://reyes-edwin.github.io/word-guess-game-doc/posts/">https://reyes-edwin.github.io/word-guess-game-doc/posts/</a>).</p>
+
+<hr>
+<ul><li>Previous: <a href="/word-guess-game-doc/posts/week5/">Check-in week 5</a></li>
+</ul>
+
+    </main>
+
+    <footer></footer>
+
+    <!-- Current page: /word-guess-game-doc/posts/documentation/ -->
+  </body>
+</html>
