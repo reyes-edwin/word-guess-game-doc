@@ -25,4 +25,4 @@ After the word has been retrieved, the WordGuessingGame.js file sends the word t
 The user has 6 attempts to guess the word. If they guess the correct word, confetti will appear on their screen. After this, the game sends the number of attempts and winners for the word. If they do not guess the correct word, they will be shown a pop-up telling them they ran out of guesses and what the correct word was. This alert will also show the number of attempts and correct guesses for that word by pulling from the database. 
 
 ## How was it built? ##
-Read about the process for building this component through the previous weekly check-in posts on this blog [here] (https://reyes-edwin.github.io/word-guess-game-doc/posts/). 
+Read about the process for building this component through the previous weekly check-in posts on this blog [here](https://reyes-edwin.github.io/word-guess-game-doc/posts/). 
